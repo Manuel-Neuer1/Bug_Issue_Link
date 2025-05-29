@@ -40,7 +40,7 @@ This section details the bugs and unsafe implementations identified by our frame
 
 *   **Issue 5 (ResultSet should be closed, unexpectedly not closed):**
     *   [OceanBase GitHub Issue #2279](https://github.com/oceanbase/oceanbase/issues/2279)
-*   **Issue 8 (`rewriteBatchedStatements` connection property unexpectedly affects query results following batch inserts - similar to MySQL Issue 4):**
+*   **Issue 8 (`rewriteBatchedStatements` connection property unexpectedly affects query results following batch inserts):**
     *   [OceanBase GitHub Issue #2271](https://github.com/oceanbase/oceanbase/issues/2271)
 *   **Issue 9 (Batch behavior with non-DML statement - similar to MySQL Issue 2, potentially related to `allowMultiQueries` effects):**
     *   [OceanBase GitHub Issue #2275](https://github.com/oceanbase/oceanbase/issues/2275)
