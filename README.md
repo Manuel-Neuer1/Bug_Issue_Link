@@ -1,23 +1,4 @@
 # Bug_Iusse_Link
-Links to detailed reports on bugs and unsafe implementations
-
-Iusse 1: https://bugs.mysql.com/bug.php?id=118079
-
-Iusse 2: https://bugs.mysql.com/bug.php?id=118234
-
-Iusse 3: https://bugs.mysql.com/bug.php?id=118095
-
-Iusse 4: https://bugs.mysql.com/bug.php?id=118138
-
-Iusse 5: https://github.com/oceanbase/oceanbase/issues/2279
-
-Iusse 6: https://bugs.mysql.com/bug.php?id=118167
-
-Iusse 7: https://bugs.mysql.com/bug.php?id=118201
-
-Iusse 8: https://github.com/oceanbase/oceanbase/issues/2271
-
-Iusse 9: https://github.com/oceanbase/oceanbase/issues/2275
 
 This section details the bugs and unsafe implementations identified by our framework, as referenced in Table 1 of the paper. Each reported issue includes a link to the corresponding bug report or GitHub issue where available.
 
