@@ -28,7 +28,7 @@ This section details the bugs and unsafe implementations identified by our frame
 
 
 *   **Issues 10-15 (ResultSet Navigation Methods on TYPE_FORWARD_ONLY):**
-    *   **Description:** These issues collectively represent an OceanBase Connector/J compatibility mismatch where several `java.sql.ResultSet` navigation methods (`previous()`, `first()`, `afterLast()`, `absolute()`, `last()`, and `beforeFirst()`) do not conform to the JDK 8 JDBC API documentation [7]. The specification requires a `SQLException` to be thrown when these methods are called on a `TYPE_FORWARD_ONLY ResultSet`. OceanBase Connector/J, however, executes these calls without throwing an exception.
+    *   **Description:** These issues collectively represent an OceanBase Connector/J compatibility mismatch where several `java.sql.ResultSet` navigation methods (`previous()`, `first()`, `afterLast()`, `absolute()`, `last()`, and `beforeFirst()`) do not conform to the JDK 8 JDBC API documentation. The specification requires a `SQLException` to be thrown when these methods are called on a `TYPE_FORWARD_ONLY ResultSet`. OceanBase Connector/J, however, executes these calls without throwing an exception.
     *   **Reported Under:** All these related deviations (Issues 10 through 15 from our paper's Table 1) were reported and are being tracked under a single GitHub issue:
         *   [OceanBase GitHub Issue #2253](https://github.com/oceanbase/oceanbase/issues/2253)
     *   **Specific methods covered by this issue include:**
