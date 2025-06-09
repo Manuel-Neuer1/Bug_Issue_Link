@@ -16,7 +16,7 @@ This section details the bugs and unsafe implementations identified by our frame
     *   [MySQL Bug #118167](https://bugs.mysql.com/bug.php?id=118167)
 *   **Issue 7 (Atomicity of batch operation compromised by `allowMultiQueries`):**
     *   [MySQL Bug #118201](https://bugs.mysql.com/bug.php?id=118201)
-    **Issue 10 (When sets resultSetHoldability to 2, getResultSetHoldability() unexpectedly returns 1):**
+    **Issue 10 (When sets `resultSetHoldability` to 2, `getResultSetHoldability()` unexpectedly returns 1):**
     *   [MySQL Bug #118360](https://bugs.mysql.com/bug.php?id=118360)
 
 ### OceanBase Connector/J Issues
