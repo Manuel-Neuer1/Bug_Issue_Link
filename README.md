@@ -8,7 +8,7 @@ This section details the bugs and unsafe implementations identified by our frame
     *   [MySQL Bug #118079](https://bugs.mysql.com/bug.php?id=118079)
 *   **Issue 2 (Illegal value with `executeBatch()` on non-DML statement):**
     *   [MySQL Bug #118234](https://bugs.mysql.com/bug.php?id=118234)
-*   **Issue 3 (Unexpected exception with `getHoldability()`):**
+*   **Issue 3 (Unexpected exception with `getHoldability()`): 这个18年**
     *   [MySQL Bug #118095](https://bugs.mysql.com/bug.php?id=118095)
 *   **Issue 4 (`rewriteBatchedStatements` connection property unexpectedly affects query results following batch inserts):**
     *   [MySQL Bug #118138](https://bugs.mysql.com/bug.php?id=118138)
